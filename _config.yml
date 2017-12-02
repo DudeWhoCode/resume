@@ -13,14 +13,14 @@ style: styles-6
 
 
 #Profile information
-name: Narendran R
-tagline: Backend Engineer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+name: Narendran
+tagline: Product Engineer
+pic: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: narenravi92@gmail.com
 # phone: +91 9710911629
-website: dudewho.codes #do not add http://
+website: www.dudewho.codes #do not add http://
 linkedin: dudewhocode
 github: dudewhocode
 twitter: '@dudewhocode'
