@@ -5,32 +5,66 @@
                 </div>-->
 
                 <div class="item">
-                    <span class="project-title"><a href="http://blog.dudewho.codes/vue-commerce/" target="_blank">MAD stack- An Artificial Intelligence Platform</a></span><span class="project-tagline">
+                    <span class="project-title"><a href="http://blog.dudewho.codes/vue-commerce/" target="_blank">MAD stack- An Artificial Intelligence Platform (MadStreetDen)</a></span><span class="project-tagline">
                     <ul>
                       <li>One of the core engineer who helped in abstracting a large, monolithic A.I platform into microservices architecture.</li>
                       <li>I contributed in building this platform by architecting and maintaining multiple services like Database wrappers, Data ingestion servers and Serverless logging framework.</li>
-                      <li><a href="http://blog.dudewho.codes/vue-commerce/" target="_blank">Click here</a> to know more about the journey and microservices I built.</li>
                       <li><i><b>Highlights:</b></i> SOA, Microservices, Python, Django, Golang, AWS, Serverless, PostgreSQL, Docker</li>
                     </ul> 
                     </span>                    
                 </div><!--//item-->
 
                 <div class="item">
-                    <span class="project-title"><a href="#hook">Decahose Data Management Platform</a></span><span class="project-tagline">
+                    <span class="project-title"><a href="https://shopthevideo.ai/" target="_blank">Shop The Video (MadStreetDen)</a></span><span class="project-tagline">
                     <ul>
-                      <li>I architected and developed a real-time data pipeline.</li>
-                      <li>This pipeline ingests high volume of twitter stream (5000+ tweets/min), extract information on the fly using NLP and expose the stored data via REST API. This pipeline was deployed in bare metal servers.</li>
-                      <li><i><b>Highlights:</b></i> Python, Java, Kafka, Storm, Cassandra, Elasticsearch, Monit</li>
+                      <li>Closely worked with Product design and Frontend teams to architect the APIs and Database schema for this product.</li>
+                      <li>Shop The Video is an A.I powered video marketing tool that helps the customer to monetize their video assets. It enables the purchase of the fashion items appearing on the video, directly form the video player.</li>
+                      <li>Designed and implemented the backend architecture from handling videos, catalog uploads to transcoding the videos and serving them through CDN.</li>
+                      <li><i><b>Highlights:</b></i> Python3, Django, Serverless, AWS ECS, lambda, Athena, AWS Transcoder, Docker, Redis, PostgreSQL.</li>
+                    </ul> 
+                    </span>          
+
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Serverless Logging Framework (MadStreetDen)</a></span><span class="project-tagline">
+                    <ul>
+                      <li>Implemented a logging client with OOP paradigms in mind, which is actively being used across all the microservices developed in MadStreetDen.</li>
+                      <li>The object oriented approach helped in distributing the ownership of data integrity among all owners of the microservices.</li>
+                      <li>Implemented a serverless backend for this logging framework.</li>
+                      <li><i><b>Highlights:</b></i> Python, OOP, AWS Athena, AWS Kinesis, AWS quicksight, AWS s3, Redis.</li>
                     </ul> 
                     </span>                    
                 </div><!--//item-->
 
                 <div class="item">
-                    <span class="project-title"><a href="#hook">EmotoData</a></span><span class="project-tagline">
+                    <span class="project-title"><a href="#hook">RESTfulDB (MadStreetDen)</a></span><span class="project-tagline">
                     <ul>
-                      <li>Developed an architecture to handle streaming data from Chinese websites.</li>
-                      <li>This service streams data from various Chinese websites like sina weibo, tencent, renren, etc. enriches it on the fly and stores them.</li>
-                      <li><i><b>Highlights:</b></i> Python, Kafka, Cassandra, ElasticSearch, Solr.</li>
+                      <li>Developed a REST API driven microservice around PostgreSQL database.</li>
+                      <li>This helped in rapid iterations of schema changes. Even though there were multiple microservices using the database, only this microservice had to be touched in case of schema change.</li>
+                      <li>Was able to derive more insights about slow queries and traffic patterns that affects the DataBase in API layer itself.</li>
+                      <li>API versioning helped in canary deployment for new schema roll outs.</li>
+                      <li><i><b>Highlights:</b></i> Python, Django, Psycopg2, ORM, uWSGI.</li>
+                    </ul> 
+                    </span>                    
+                </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Message Routing MicroService (MadStreetDen)</a></span><span class="project-tagline">
+                    <ul>
+                      <li>Built an I/O heavy, multi-tenant microservice that sits in ingestion part of the pipeline.</li>
+                      <li>This routes the data (products from the catalog) to different microservices and scales horizontally.</li>
+                      <li>Used multi threading to achieve the throughput of 10K messages per minute.</li>
+                      <li>Next version is being implemented using Golang, keeping concurrency in mind.</li>
+                      <li><i><b>Highlights:</b></i> Python, multi-threading, concurrency.</li>
+                    </ul> 
+                    </span>                    
+                </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Ingestion MicroService (MadStreetDen)</a></span><span class="project-tagline">
+                    <ul>
+                      <li>Developed a framework to ingest and parse product catalogs from various sources like HTTP, FTP, AWS SQS, S3.</li>
+                      <li>Implemented in a Object Oriented way which helped in writing custom parser for different e-commerce clients.</li>
+                      <li><i><b>Highlights:</b></i> Python, multi-threading, multi-processing.</li>
                     </ul> 
                     </span>                    
                 </div><!--//item-->
@@ -45,6 +79,27 @@
                     </ul> 
                     </span>                    
                 </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="#hook">Decahose Data Management Platform (Serendio)</a></span><span class="project-tagline">
+                    <ul>
+                      <li>I architected and developed a real-time data pipeline.</li>
+                      <li>This pipeline ingests high volume of twitter stream (5000+ tweets/min), extract information on the fly using NLP and expose the stored data via REST API. This pipeline was deployed in bare metal servers.</li>
+                      <li><i><b>Highlights:</b></i> Python, Java, Kafka, Storm, Cassandra, Elasticsearch, Monit</li>
+                    </ul> 
+                    </span>                    
+                </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="#hook">EmotoData (Serendio)</a></span><span class="project-tagline">
+                    <ul>
+                      <li>Developed an architecture to handle streaming data from Chinese websites.</li>
+                      <li>This service streams data from various Chinese websites like sina weibo, tencent, renren, etc. enriches it on the fly and stores them.</li>
+                      <li><i><b>Highlights:</b></i> Python, Kafka, Cassandra, ElasticSearch, Solr.</li>
+                    </ul> 
+                    </span>                    
+                </div><!--//item-->
+
 
                 <div class="item">
                     <span class="project-title"><a href="https://github.com/dudewhocode/godis" target="_blank">Godis (OpenSource)</a></span><span class="project-tagline">
